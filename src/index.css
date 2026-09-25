@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-cream: #F5F1E9;
+  --color-stone: #E3DACB;
+  --color-choco: #4B2D29;
+  --color-charcoal: #343334;
+  --color-powder: #AABCCD;
+  --color-gold: #B79A63;
+}
+
+:root {
+  --font-serif: 'Noto Serif KR', serif;
+  --font-sans: 'Noto Sans KR', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F5F1E9;
+  color: #343334;
+}
+
+/* Hide scrollbar by default */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #B79A63;
+  border-radius: 2px;
+  opacity: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+  opacity: 1;
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Create stunning portfolio detail pages using provided images and templates, perfect for designers and marketers looking to showcase their work effectively.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
